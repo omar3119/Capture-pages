@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url("Header_Semana_Movil_01.webp");
+  background-position: center bottom;
+  color: white;
+}
+.container {
+  height: 100vh;
+  outline: 2px solid red;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .header {
+  padding-bottom: 30px;
+}
+.header {
+  width: 100%;
+}
+.header p {
+  text-align: left;
+}
+.header .header_span {
+  font-size: 30px;
+}
+.main .paragraph-1 {
+  padding: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.main-h2 {
+  font-size: 26px;
+}
+.main .span__color {
+  color: #ebba33;
+}
+.main .paragraph-2 {
+  padding: 15px 0;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container .btn__whatsapp {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  padding: 10px 14px;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-size: 15px;
+}
